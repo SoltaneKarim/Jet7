@@ -3,10 +3,8 @@ import React, { useState , useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import {	faFacebook,	faTwitter,	faYoutube,} from "@fortawesome/free-brands-svg-icons"; // Import Font Awesome icons
-import logoDesc from "../app/assets/images/logo.png";
-import CssImports from "../app/CssImports.jsx";
+import logoDesc from "../assets/images/logo.png";
 
-import $ from 'jquery';
 
 const Header = () => {
   //for the scroll
@@ -113,7 +111,7 @@ const Header = () => {
 				<nav className="navigation-main clearfix">
 					{/* logo */}
 					<div className="logo animated fadeIn">
-						<a>
+					
 							<Image 
 							className="logo-desktop"
 							src ={logoDesc.src}
@@ -126,7 +124,7 @@ const Header = () => {
 
 
 
-						</a>
+						
 					</div>
 					{/* toggle-menu */}
 					<div className={`toggle-menu ${menuOpen ? 'open' : ''}`} onClick={handleToggleMenu}>
@@ -137,7 +135,7 @@ const Header = () => {
 						{/* navigation-left */}
 						<ul className="navigation-left">
 							<li >
-								<a>
+								<a href="/pageloader">
 									Home{" "}
 									<span className="open-dropdown">
 										<i className="fa fa-angle-down"></i>

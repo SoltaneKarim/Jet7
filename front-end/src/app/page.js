@@ -1,27 +1,22 @@
 "use client"
+import './globals.css'
 import { Inter } from '@next/font/google'
-import CssImports from "./CssImports.jsx";
-import Header from "../pages/Header.jsx";
-import PageLoader from "../pages/PageLoader.jsx";
+import Header from "./Header/page.jsx";
+import Carousel from "./Carousel/page.jsx";
+import PageLoader from "./PageLoader/page.jsx";
 import logo from "../../public/favicon.ico";
-import FrontpageSlider from "../Pages/FrontpageSlider.jsx";
-import $ from 'jquery';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-
+import Booking from "./Booking/page.jsx";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-   <>
+   <div>
    
     
-  <PageLoader />
-    <div className="wrapper">
-    <Header />
-    <FrontpageSlider />
-    </div>
 
-   </> 
+<Carousel />
+<Booking />
+   </div> 
     
     
     
