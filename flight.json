@@ -1,0 +1,573 @@
+[
+    {
+      "flight_date": "2023-09-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Kingsford Smith",
+        "timezone": "Australia/Sydney",
+        "iata": "SYD",
+        "icao": "YSSY",
+        "terminal": "3",
+        "gate": "T3G",
+        "delay": 10,
+        "scheduled": "2023-09-10T08:40:00+00:00",
+        "estimated": "2023-09-10T08:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 350.50
+    },
+    {
+      "flight_date": "2023-09-12",
+      "flight_status": "boarding",
+      "departure": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "A12",
+        "delay": 5,
+        "scheduled": "2023-09-12T12:30:00+00:00",
+        "estimated": "2023-09-12T12:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 450.25
+    },
+    {
+      "flight_date": "2023-09-15",
+      "flight_status": "delayed",
+      "departure": {
+        "airport": "Heathrow Airport",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": "B8",
+        "delay": 30,
+        "scheduled": "2023-09-15T15:15:00+00:00",
+        "estimated": "2023-09-15T15:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 550.75
+    },
+    {
+      "flight_date": "2023-09-17",
+      "flight_status": "canceled",
+      "departure": {
+        "airport": "JFK International Airport",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "C5",
+        "delay": null,
+        "scheduled": "2023-09-17T09:20:00+00:00",
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 0
+    },
+    {
+      "flight_date": "2023-09-20",
+      "flight_status": "arrived",
+      "departure": {
+        "airport": "Dubai International Airport",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "2",
+        "gate": "D3",
+        "delay": 0,
+        "scheduled": "2023-09-20T18:00:00+00:00",
+        "estimated": "2023-09-20T18:00:00+00:00",
+        "actual": "2023-09-20T18:05:00+00:00",
+        "estimated_runway": "2023-09-20T17:55:00+00:00",
+        "actual_runway": "2023-09-20T18:00:00+00:00"
+      },
+      "price": 680.00
+    },
+    {
+      "flight_date": "2023-09-22",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Charles de Gaulle Airport",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "1",
+        "gate": "A15",
+        "delay": 20,
+        "scheduled": "2023-09-22T14:30:00+00:00",
+        "estimated": "2023-09-22T14:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 520.90
+    },
+    {
+      "flight_date": "2023-09-25",
+      "flight_status": "boarding",
+      "departure": {
+        "airport": "Hong Kong International Airport",
+        "timezone": "Asia/Hong_Kong",
+        "iata": "HKG",
+        "icao": "VHHH",
+        "terminal": "2",
+        "gate": "G7",
+        "delay": 10,
+        "scheduled": "2023-09-25T16:45:00+00:00",
+        "estimated": "2023-09-25T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 420.60
+    },
+    {
+      "flight_date": "2023-09-28",
+      "flight_status": "delayed",
+      "departure": {
+        "airport": "Frankfurt Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "B10",
+        "delay": 45,
+        "scheduled": "2023-09-28T10:10:00+00:00",
+        "estimated": "2023-09-28T10:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 370.80
+    },
+    {
+      "flight_date": "2023-09-30",
+      "flight_status": "canceled",
+      "departure": {
+        "airport": "Beijing Capital International Airport",
+        "timezone": "Asia/Shanghai",
+        "iata": "PEK",
+        "icao": "ZBAA",
+        "terminal": "3",
+        "gate": "C2",
+        "delay": null,
+        "scheduled": "2023-09-30T14:55:00+00:00",
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 0
+    },
+    {
+      "flight_date": "2023-10-02",
+      "flight_status": "arrived",
+      "departure": {
+        "airport": "Singapore Changi Airport",
+        "timezone": "Asia/Singapore",
+        "iata": "SIN",
+        "icao": "WSSS",
+        "terminal": "2",
+        "gate": "E5",
+        "delay": 0,
+        "scheduled": "2023-10-02T07:55:00+00:00",
+        "estimated": "2023-10-02T08:00:00+00:00",
+        "actual": "2023-10-02T08:05:00+00:00",
+        "estimated_runway": "2023-10-02T07:50:00+00:00",
+        "actual_runway": "2023-10-02T08:00:00+00:00"
+      },
+      "price": 580.40
+    },
+    {
+      "flight_date": "2023-09-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Kingsford Smith",
+        "timezone": "Australia/Sydney",
+        "iata": "SYD",
+        "icao": "YSSY",
+        "terminal": "3",
+        "gate": "T3G",
+        "delay": 10,
+        "scheduled": "2023-09-10T08:40:00+00:00",
+        "estimated": "2023-09-10T08:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 350.50
+    },
+    {
+      "flight_date": "2023-09-12",
+      "flight_status": "boarding",
+      "departure": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "A12",
+        "delay": 5,
+        "scheduled": "2023-09-12T12:30:00+00:00",
+        "estimated": "2023-09-12T12:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 450.25
+    },
+    {
+      "flight_date": "2023-09-15",
+      "flight_status": "delayed",
+      "departure": {
+        "airport": "Heathrow Airport",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": "B8",
+        "delay": 30,
+        "scheduled": "2023-09-15T15:15:00+00:00",
+        "estimated": "2023-09-15T15:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 550.75
+    },
+    {
+      "flight_date": "2023-09-17",
+      "flight_status": "canceled",
+      "departure": {
+        "airport": "JFK International Airport",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "C5",
+        "delay": null,
+        "scheduled": "2023-09-17T09:20:00+00:00",
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 0
+    },
+    {
+      "flight_date": "2023-09-20",
+      "flight_status": "arrived",
+      "departure": {
+        "airport": "Dubai International Airport",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "2",
+        "gate": "D3",
+        "delay": 0,
+        "scheduled": "2023-09-20T18:00:00+00:00",
+        "estimated": "2023-09-20T18:00:00+00:00",
+        "actual": "2023-09-20T18:05:00+00:00",
+        "estimated_runway": "2023-09-20T17:55:00+00:00",
+        "actual_runway": "2023-09-20T18:00:00+00:00"
+      },
+      "price": 680.00
+    },
+    {
+      "flight_date": "2023-09-22",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Charles de Gaulle Airport",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "1",
+        "gate": "A15",
+        "delay": 20,
+        "scheduled": "2023-09-22T14:30:00+00:00",
+        "estimated": "2023-09-22T14:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 520.90
+    },
+    {
+      "flight_date": "2023-09-25",
+      "flight_status": "boarding",
+      "departure": {
+        "airport": "Hong Kong International Airport",
+        "timezone": "Asia/Hong_Kong",
+        "iata": "HKG",
+        "icao": "VHHH",
+        "terminal": "2",
+        "gate": "G7",
+        "delay": 10,
+        "scheduled": "2023-09-25T16:45:00+00:00",
+        "estimated": "2023-09-25T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 420.60
+    },
+    {
+      "flight_date": "2023-09-28",
+      "flight_status": "delayed",
+      "departure": {
+        "airport": "Frankfurt Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "B10",
+        "delay": 45,
+        "scheduled": "2023-09-28T10:10:00+00:00",
+        "estimated": "2023-09-28T10:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 370.80
+    },
+    {
+      "flight_date": "2023-09-30",
+      "flight_status": "canceled",
+      "departure": {
+        "airport": "Beijing Capital International Airport",
+        "timezone": "Asia/Shanghai",
+        "iata": "PEK",
+        "icao": "ZBAA",
+        "terminal": "3",
+        "gate": "C2",
+        "delay": null,
+        "scheduled": "2023-09-30T14:55:00+00:00",
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 0
+    },
+    {
+      "flight_date": "2023-10-02",
+      "flight_status": "arrived",
+      "departure": {
+        "airport": "Singapore Changi Airport",
+        "timezone": "Asia/Singapore",
+        "iata": "SIN",
+        "icao": "WSSS",
+        "terminal": "2",
+        "gate": "E5",
+        "delay": 0,
+        "scheduled": "2023-10-02T07:55:00+00:00",
+        "estimated": "2023-10-02T08:00:00+00:00",
+        "actual": "2023-10-02T08:05:00+00:00",
+        "estimated_runway": "2023-10-02T07:50:00+00:00",
+        "actual_runway": "2023-10-02T08:00:00+00:00"
+      },
+      "price": 580.40
+    },
+    {
+      "flight_date": "2023-09-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Kingsford Smith",
+        "timezone": "Australia/Sydney",
+        "iata": "SYD",
+        "icao": "YSSY",
+        "terminal": "3",
+        "gate": "T3G",
+        "delay": 10,
+        "scheduled": "2023-09-10T08:40:00+00:00",
+        "estimated": "2023-09-10T08:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 350.50
+    },
+    {
+      "flight_date": "2023-09-12",
+      "flight_status": "boarding",
+      "departure": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "A12",
+        "delay": 5,
+        "scheduled": "2023-09-12T12:30:00+00:00",
+        "estimated": "2023-09-12T12:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 450.25
+    },
+    {
+      "flight_date": "2023-09-15",
+      "flight_status": "delayed",
+      "departure": {
+        "airport": "Heathrow Airport",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": "B8",
+        "delay": 30,
+        "scheduled": "2023-09-15T15:15:00+00:00",
+        "estimated": "2023-09-15T15:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 550.75
+    },
+    {
+      "flight_date": "2023-09-17",
+      "flight_status": "canceled",
+      "departure": {
+        "airport": "JFK International Airport",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "C5",
+        "delay": null,
+        "scheduled": "2023-09-17T09:20:00+00:00",
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 0
+    },
+    {
+      "flight_date": "2023-09-20",
+      "flight_status": "arrived",
+      "departure": {
+        "airport": "Dubai International Airport",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "2",
+        "gate": "D3",
+        "delay": 0,
+        "scheduled": "2023-09-20T18:00:00+00:00",
+        "estimated": "2023-09-20T18:00:00+00:00",
+        "actual": "2023-09-20T18:05:00+00:00",
+        "estimated_runway": "2023-09-20T17:55:00+00:00",
+        "actual_runway": "2023-09-20T18:00:00+00:00"
+      },
+      "price": 680.00
+    },
+    {
+      "flight_date": "2023-09-22",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Charles de Gaulle Airport",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "1",
+        "gate": "A15",
+        "delay": 20,
+        "scheduled": "2023-09-22T14:30:00+00:00",
+        "estimated": "2023-09-22T14:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 520.90
+    },
+    {
+      "flight_date": "2023-09-25",
+      "flight_status": "boarding",
+      "departure": {
+        "airport": "Hong Kong International Airport",
+        "timezone": "Asia/Hong_Kong",
+        "iata": "HKG",
+        "icao": "VHHH",
+        "terminal": "2",
+        "gate": "G7",
+        "delay": 10,
+        "scheduled": "2023-09-25T16:45:00+00:00",
+        "estimated": "2023-09-25T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 420.60
+    },
+    {
+      "flight_date": "2023-09-28",
+      "flight_status": "delayed",
+      "departure": {
+        "airport": "Frankfurt Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "B10",
+        "delay": 45,
+        "scheduled": "2023-09-28T10:10:00+00:00",
+        "estimated": "2023-09-28T10:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 370.80
+    },
+    {
+      "flight_date": "2023-09-30",
+      "flight_status": "canceled",
+      "departure": {
+        "airport": "Beijing Capital International Airport",
+        "timezone": "Asia/Shanghai",
+        "iata": "PEK",
+        "icao": "ZBAA",
+        "terminal": "3",
+        "gate": "C2",
+        "delay": null,
+        "scheduled": "2023-09-30T14:55:00+00:00",
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "price": 0
+    },
+    {
+      "flight_date": "2023-10-02",
+      "flight_status": "arrived",
+      "departure": {
+        "airport": "Singapore Changi Airport",
+        "timezone": "Asia/Singapore",
+        "iata": "SIN",
+        "icao": "WSSS",
+        "terminal": "2",
+        "gate": "E5",
+        "delay": 0,
+        "scheduled": "2023-10-02T07:55:00+00:00",
+        "estimated": "2023-10-02T08:00:00+00:00",
+        "actual": "2023-10-02T08:05:00+00:00",
+        "estimated_runway": "2023-10-02T07:50:00+00:00",
+        "actual_runway": "2023-10-02T08:00:00+00:00"
+      },
+      "price": 580.40
+    }
+  ]
+  
