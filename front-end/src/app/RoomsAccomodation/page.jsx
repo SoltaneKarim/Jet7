@@ -1,41 +1,10 @@
 import React from 'react';
-import room1Image from '../assets/images/room-1.jpg';
-import room2Image from '../assets/images/room-2.jpg';
-import room3Image from '../assets/images/room-3.jpg';
-import room4Image from '../assets/images/room-4.jpg';
-
-const roomData = [
-  {
-    id: 1,
-    title: 'Club Room',
-    type: 'Single room',
-    image: room1Image,
-    price: '$ 98,00',
-  },
-  {
-    id: 2,
-    title: 'Classic Room',
-    type: 'Double room',
-    image: room2Image,
-    price: '$ 129,00',
-  },
-  {
-    id: 3,
-    title: 'Superior Room',
-    type: 'Queen size bed',
-    image: room3Image,
-    price: '$ 159,00',
-  },
-  {
-    id: 4,
-    title: 'Family Suite',
-    type: 'Family room',
-    image: room4Image,
-    price: '$ 199,00',
-  },
-];
-
+import MyCarousel from 'react-bootstrap/Carousel';
+import hotel from 'C:/Users/sk92s/OneDrive/Bureau/Jet7/hotel.json';
+import "../globals.css"
 const RoomsAccommodation = () => {
+  const hotels = hotel.data.hotels;
+
   return (
     <section className="rooms rooms-widget">
       {/* Rooms Header */}
@@ -48,34 +17,51 @@ const RoomsAccommodation = () => {
         </div>
       </div>
       {/* Rooms Content */}
-      <div className="container">
-        <div className="owl-rooms owl-theme">
-          {roomData.map((room) => (
-            <div className="item" key={room.id}>
+      <div className="container" id="rooms-acc">
+
+
+        <MyCarousel>
+          {hotels.map((hotel) => (
+            <MyCarousel.Item key={hotel.hotelId} >
               <article>
-                <div className="image">
-                  <img src={room.image.src} alt="" />
-                </div>
-                <div className="details">
-                  <div className="text">
-                    <h3 className="title"><a href="room-overview.html">{room.title}</a></h3>
-                    <p>{room.type}</p>
-                  </div>
-                  <div className="book">
-                    <div>
-                      <a href="room-overview.html" className="btn btn-main">Book now</a>
+              <div className='just-this-img' >
+
+              <img src={hotel.heroImage} className='random-pic'/>
+
+</div>
+      <div className="details">
+        <div className="text">
+          <h3 className="title">
+            <a href="room-overview.html">{hotel.name}</a>
+          </h3>
+          <p>{hotel.rating?.description}</p>
+        </div>
+        <div className="book">
+          <div>
+            <a href="room-overview.html" className="btn btn-main">
+              Book now
+            </a>
+          </div>
+          <div>
+            <span className="price h4">$ 98,00</span>
+            <div className="rating">
+                      {[...Array(hotel.stars)].map((_, starIndex) => (
+                        <span key={starIndex} className="fa fa-star"></span>
+                      ))}
                     </div>
-                    <div>
-                      <span className="price h4">{room.price}</span>
-                      <span>per night</span>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
+           
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+
+             
+            </MyCarousel.Item>
           ))}
-        </div>{/* /owl-rooms */}
-      </div> {/* /container */}
+        </MyCarousel>
+      </div>
     </section>
   );
 };

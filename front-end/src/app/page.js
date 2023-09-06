@@ -22,6 +22,7 @@ export default function Home() {
       <RoomsAccommodation />
       <ResortFacilities />
       <LatestNews />
+      
       {/* <NearbyCards /> */}
       
       <ImageBlocks />
