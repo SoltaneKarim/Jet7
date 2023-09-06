@@ -2,13 +2,17 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel'
 import React from 'react'
+import image1 from '../assets/images/blue-pool-sky.avif'
+import image2 from '../assets/images/hotel-lumineux.avif'
+import image3 from '../assets/images/chaise-longue-palmiers-piscine.webp'
+
 
 function UncontrolledExample() {
   return (
     <div className="frontpage-slider">
-    <Carousel className="owl-slider owl-slider-header owl-slider-fullscreen">
-      <Carousel.Item className="item">
-        <img src="https://images.unsplash.com/photo-1493243350443-9e3048ce7288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1940&q=80" text="First slide" />
+    <Carousel >
+    <Carousel.Item className="item" style={{ "backgroundImage": `url(${image1.src})` }}>
+        
         <Carousel.Caption >
         <div
 						className='carousel-caption'
@@ -33,10 +37,6 @@ function UncontrolledExample() {
 									and unforgettable weddings.
 								</div>
 								<div className="animated" data-animation="fadeInUp">
-									<a
-										href="https://themeforest.net/item/colina-hotel-website-template/20977257"
-										className="btn btn-clean"
-										>Buy this template</a>
 								</div>
 							</div>
 						</div>
@@ -44,8 +44,7 @@ function UncontrolledExample() {
 
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="item">
-        <img src="https://plus.unsplash.com/premium_photo-1672004854448-9115b9309e2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" text="Second slide" />
+      <Carousel.Item className="item" style={{ "backgroundImage": `url(${image2.src})` }}>
         <Carousel.Caption>
         <div  className="box text-center">
         <div className='carousel-caption'>
@@ -69,8 +68,7 @@ function UncontrolledExample() {
        
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="item">
-        <img src="https://images.unsplash.com/photo-1551983914-4ab58d6b1018?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1799&q=80" text="Third slide" />
+      <Carousel.Item className="item" style={{ "backgroundImage": `url(${image3.src})` }}>
         <Carousel.Caption className="item">
         <div className="box text-center">
       <div className="container">

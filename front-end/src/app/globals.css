@@ -11,6 +11,28 @@
   font-size: 2rem;
 
 }
-.carou{
-
+.item{
+height: 850px;
+width: 100%;
+background-size: auto;
+background-position-y:-250px ;
+background-position-x:-150px ;
+background-repeat: no-repeat;
+}
+.booking-wrapper{
+  background-color: #ffffff4f !important;
+}
+#rooms-acc{
+  height: 400px !important;
+    width: 700px !important;
+}
+.just-this-img{
+  height: 479px;
+  width: 726px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.random-pic{
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
 }
