@@ -1,5 +1,5 @@
 import React from 'react';
-const page = () => {
+const Booking = () => {
   return (
     <section className="booking booking-inner">
       <div className="section-header hidden">
@@ -174,5 +174,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default Booking;
 
