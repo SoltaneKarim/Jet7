@@ -1,8 +1,8 @@
 import React from 'react';
-import room1Image from '../app/assets/images/room-1.jpg';
-import room2Image from '../app/assets/images/room-2.jpg';
-import room3Image from '../app/assets/images/room-3.jpg';
-import room4Image from '../app/assets/images/room-4.jpg';
+import room1Image from '../assets/images/room-1.jpg';
+import room2Image from '../assets/images/room-2.jpg';
+import room3Image from '../assets/images/room-3.jpg';
+import room4Image from '../assets/images/room-4.jpg';
 
 const roomData = [
   {

@@ -1,9 +1,9 @@
 import React from 'react';
-import activity1Image from '../app/assets/images/activity-1.jpg';
-import activity2Image from '../app/assets/images/activity-2.jpg';
-import activity3Image from '../app/assets/images/activity-3.jpg';
-import activity4Image from '../app/assets/images/activity-4.jpg';
-import activity5Image from '../app/assets/images/activity-5.jpg';
+import activity1Image from '../assets/images/activity-1.jpg';
+import activity2Image from '../assets/images/activity-2.jpg';
+import activity3Image from '../assets/images/activity-3.jpg';
+import activity4Image from '../assets/images/activity-4.jpg';
+import activity5Image from '../assets/images/activity-5.jpg';
 
 const NearbyCards = () => {
   return (

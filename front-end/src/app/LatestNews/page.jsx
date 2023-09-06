@@ -1,7 +1,7 @@
 import React from 'react';
-import activity3Image from '../app/assets/images/activity-3.jpg';
-import activity4Image from '../app/assets/images/activity-4.jpg';
-import activity5Image from '../app/assets/images/activity-5.jpg';
+import activity3Image from '../assets/images/activity-3.jpg';
+import activity4Image from '../assets/images/activity-4.jpg';
+import activity5Image from '../assets/images/activity-5.jpg';
 
 const LatestNews = () => {
   return (

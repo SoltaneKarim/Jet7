@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect , useState } from 'react';
-import CssImports from "../app/CssImports.jsx";
 function PageLoader() {
   const [isLoading, setIsLoading] = useState(true);
 

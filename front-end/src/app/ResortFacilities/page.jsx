@@ -1,8 +1,8 @@
 import React from 'react';
-import services1Image from '../app/assets/images/services-1.jpg';
-import services2Image from '../app/assets/images/services-2.jpg';
-import services3Image from '../app/assets/images/services-3.jpg';
-import services4Image from '../app/assets/images/services-4.jpg';
+import services1Image from '../assets/images/services-1.jpg';
+import services2Image from '../assets/images/services-2.jpg';
+import services3Image from '../assets/images/services-3.jpg';
+import services4Image from '../assets/images/services-4.jpg';
 
 const ResortFacilities = () => {
   return (
