@@ -1519,35 +1519,6 @@
           "cheapestOfferPartnerName": "Hotels.com"
         },
         {
-          "hotelId": "115218484",
-          "heroImage": "https://d2xf5gjipzd8cd.cloudfront.net/available/493148600/493148600_WxH.jpg",
-          "name": "John 3 16 Christian BnB",
-          "stars": 3,
-          "brandIds": [],
-          "distance": "4.68 miles from downtown",
-          "relevantPoiDistance": "0.73 miles from Central Park",
-          "coordinates": [
-            -73.97812,
-            40.77868
-          ],
-          "rating": null,
-          "cheapestOffer": "none",
-          "offerTypes": "none",
-          "guestType": null,
-          "exclusiveDealLabel": null,
-          "pricesFrom": null,
-          "images": [
-            "https://d2xf5gjipzd8cd.cloudfront.net/available/493148600/493148600_WxH.jpg",
-            "https://d2xf5gjipzd8cd.cloudfront.net/available/493148599/493148599_WxH.jpg",
-            "https://d2xf5gjipzd8cd.cloudfront.net/available/1067157176/1067157176_WxH.jpg"
-          ],
-          "otherRates": [],
-          "priceDescription": "",
-          "taxPolicy": "Taxes and fees not included",
-          "rateFeatures": [],
-          "cheapestOfferPartnerName": null
-        },
-        {
           "hotelId": "136932444",
           "heroImage": "https://d2xf5gjipzd8cd.cloudfront.net/available/1034033451/1034033451_WxH.jpg",
           "name": "St Marks Hotel",
