@@ -4,14 +4,13 @@
 }
 
 .carousel-caption {
-
-  bottom: 11.25rem;
+  position: absolute;
+  bottom: 16.25rem !important;
+ 
   font-size: 3rem;
   font-size: 2rem;
 
 }
-.carousel-caption h3 {
-
-  font-size: 4rem;
+.carou{
 
 }
