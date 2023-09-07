@@ -1,5 +1,5 @@
 import React from 'react';
-import compagnie from 'C:/Users/sk92s/OneDrive/Bureau/Jet7/compagnie.json';
+import compagnie from '../../../../compagnie.json';
 
 const ResortFacilities = () => {
   

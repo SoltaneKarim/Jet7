@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import catRooms from "C:/Users/sk92s/OneDrive/Bureau/Jet7/rooms.json"; // Adjust the path to your JSON file
+import catRooms from "../../../../rooms.json"; // Adjust the path to your JSON file
 
 const ImageBlocks = () => {
   const [currentRoomIndex, setCurrentRoomIndex] = useState(0);
