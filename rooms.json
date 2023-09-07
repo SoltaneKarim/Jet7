@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Presidential Suite",
+    "image": "https://imgs.search.brave.com/XVtK13R_EEgdIxoAQbbgi9ixpT00_9VJdkm6eabh1qY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vcGhvdG9z/L2hvdGVsLXByZXNp/ZGVudGlhbC1zdWl0/ZS1pbnRlcmlvci1w/aWN0dXJlLWlkNTI4/ODUyMzg0P3M9NjEy/eDYxMg",
+    "description": "Newly refurnished luxury accommodation with the finest quality linen & quality decor. Air Conditioning Electric Blankets, Ironing Boards, Mini Bar, Flat Screen & Free Inhouse Movies, WiFi and Housekeeping by request.",
+    "price": "$1000 per night"
+  },
+  {
+    "category": "Deluxe King Room",
+    "image": "https://imgs.search.brave.com/8uOnV0aPx0ZenDV83qZjep8lz1zh-29nZ85nNtm8UjE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c3ljdWFuLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOC8x/Mi9ERUxVWEUtS0lO/Ry0wMS5qcGc",
+    "description": "Spacious room with a comfortable king-sized bed, a work desk, and a private bathroom. Perfect for business travelers.",
+    "price": "$250 per night"
+  },
+  {
+    "category": "Ocean View Suite",
+    "image": "https://imgs.search.brave.com/v2-rS290PXKkK597033T7XKBfYqmw6UId5VzlZUN5Yc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MDExMTc3MTY5ODct/YzhjMzk0YmIyOWRm/P2l4bGliPXJiLTQu/MC4zJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4TW54/OGIyTmxZVzRsTWpC/MmFXVjNmR1Z1ZkRC/OGZEQjhmSHd3Jnc9/MTAwMCZxPTgw",
+    "description": "Enjoy breathtaking ocean views from this luxurious suite. Includes a private balcony, king-sized bed, and spa bath.",
+    "price": "$800 per night"
+  },
+  {
+    "category": "Family Suite",
+    "image": "https://imgs.search.brave.com/phOdbI3QQ6YsgrFnIT7I6GioVosdnvAo4j8Ol5dHmcU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90aGV0/b3VyZ3V5LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8w/NC9NZWxpYS1XaGl0/ZS1Ib3VzZS1Ib3Rl/bC5qcGc",
+    "description": "A family-friendly suite with a separate bedroom for kids, a king-sized bed, and a kitchenette.",
+    "price": "$350 per night"
+  },
+  {
+    "category": "Executive Loft",
+    "image": "https://imgs.search.brave.com/V0rD0btMyjy6m72WHMfqtHOsCtd2L8DD1-FI344AwYw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aG90ZWxtYXlhbG9u/Z2JlYWNoLmNvbS9p/bWFnZXMvY29udGVu/dC9hY2NvbW1vZGF0/aW9ucy9yb29tcy93/YXRlci12aWV3LWtp/bmctbG9mdC5qcGc_/MDIyMzgwMDU1NTY3/NjQ4ODc",
+    "description": "Stylish loft-style accommodation with a living area, a queen-sized bed, and modern amenities.",
+    "price": "$300 per night"
+  },
+  {
+    "category": "Standard Double Room",
+    "image": "https://imgs.search.brave.com/2auZbzc4m8L9tIlKKkWU8NB64y5-RYE9aIJ7521bbHQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRlbmhvdGVsYW1z/dGVyZGFtLmNvbS9t/ZWRpYS9pbWFnZXMv/RUgtLS1FREVOLUhP/VEVMLUFNU1RFUkRB/TS0tLURPVUIuMmUx/NmQwYmEuZmlsbC0x/MzcweDEwMjQuanBn",
+    "description": "A cozy room with a double bed, suitable for solo travelers or couples on a budget.",
+    "price": "$150 per night"
+  },
+  {
+    "category": "Honeymoon Suite",
+    "image": "https://imgs.search.brave.com/bBLtzva4oVMw1boTTqav61EVhgbfF5-erp3mDh-KOLg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vbWVkaWEt/Y2RuLnRyaXBhZHZp/c29yLmNvbS9tZWRp/YS9waG90by1zLzFi/LzczLzQ5L2U0L2hv/bmV5bW9vbi1iZWQt/ZGVjb3JhdGlvbi5q/cGc_c3RyaXA9YWxs",
+    "description": "Romantic suite with a four-poster bed, a private jacuzzi, and champagne on arrival.",
+    "price": "$700 per night"
+  },
+  {
+    "category": "Mountain View Chalet",
+    "image": "https://imgs.search.brave.com/leCdwcUrZIoRIX86wXlBmq9YxzwHRRNG4F2jLPHiSs8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c2tpd29ybGQuY28u/dWsvYmxvZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOC8wOS9T/aWxlbmUtaG90dHVi/V0VCLmpwZw",
+    "description": "Experience the beauty of the mountains from this chalet. Features a fireplace and a queen-sized bed.",
+    "price": "$400 per night"
+  },
+  {
+    "category": "Luxury Spa Room",
+    "image": "https://imgs.search.brave.com/slwuSjciw4cTVNxK-s2GPs81BfiY-L_79Ph6_LyatEg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFmL2Nk/LzIxLzFmY2QyMTU3/OWE0OGUwOTNlMTVk/ODA4MGU1YmVjMjcz/LS1zcGEtdHJlYXRt/ZW50LXJvb20tc3Bh/LXRyZWF0bWVudHMu/anBn",
+    "description": "Relax and unwind in this spa room with a king-sized bed and a private spa bath.",
+    "price": "$500 per night"
+  }
+]
