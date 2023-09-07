@@ -1,6 +1,6 @@
 import React from 'react';
 import MyCarousel from 'react-bootstrap/Carousel';
-import hotel from 'C:/Users/sk92s/OneDrive/Bureau/Jet7/hotel.json';
+import hotel from '../../../../hotel.json';
 import "../globals.css"
 const RoomsAccommodation = () => {
   const hotels = hotel.data.hotels;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import reports from 'C:/Users/sk92s/OneDrive/Bureau/Jet7/blogs.json';
+import reports from '../../../../blogs.json';
 
 const LatestNews = () => {
   const [fakeDataIndex, setFakeDataIndex] = useState(0);
