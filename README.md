@@ -1,1 +1,1 @@
-We gonna start
+We gonna start the project 
