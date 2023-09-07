@@ -38,9 +38,9 @@ const Quotes = () => {
         </div>
         <div className="row">
           <div className="col-md-8 col-md-offset-2">
-            <div className="quote-carousel">
+            <div className="quote-carousel" style={{ display: 'flex', flexDirection: 'row', margin: '0', padding: '0' }}>
               {testimonialData.map((testimonial, index) => (
-                <div className="quote" key={index}>
+                <div className="quote" key={index} style={{ flex: '0 1 auto', marginRight: '0px', marginLeft: '0' }}>
                   <div className="text">
                     <h4>{testimonial.name}</h4>
                     <p>{testimonial.content}</p>
