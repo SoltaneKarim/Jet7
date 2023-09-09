@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from "react";
 import catRooms from "../../../../rooms.json"; // Adjust the path to your JSON file
 
@@ -20,6 +21,14 @@ const ImageBlocks = () => {
     <section className="image-blocks image-blocks-header">
       {/* Rest of your component code */}
       <div className="container" style={{ "margin-top": "100px" }}>
+      <div className="container">
+          <h2 className="title">
+            ROOMS CATEGORY <a href="blog-category.html" className="btn btn-sm btn-clean-dark">Explore more</a>
+          </h2>
+          <p>
+            Events, places to go, tour info & more
+          </p>
+        </div>
         {/* Left Block */}
         <div className="blocks blocks-left">
           <div className="item">
