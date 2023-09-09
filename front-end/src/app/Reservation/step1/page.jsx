@@ -4,10 +4,21 @@ import '../../globals.css'
 import "./style.css";
 import Calendar from "./Calendar";
 import Forum from "./Forum";
+import Picking from "./Picking";
 function page() {
+const [ view , setView]=useState("picking")
+const [ options , setOption] = useState([])
 
 
-  return (
+const handleOption=(op)=>{
+ setOption(op)
+ setView("picking")
+ 
+}
+console.log('u clicked',options);
+
+
+return (
     <>
   <section className="page">
       {/* Page header */}
@@ -48,10 +59,10 @@ function page() {
       </div>
     </section>
 
-{/* <Calendar style={{"display":"block"}} /> */}
-   
-    <Forum/>
 
+   
+{view ==='forum' && <Forum handleOption={handleOption} />}
+{view ==='picking' && <Picking />}
     </>
     
     

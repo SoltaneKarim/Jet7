@@ -1,4 +1,5 @@
 .card{
+  display: block!important;
     margin:auto;
     width:50%; 
     padding-left:10px!important;
@@ -23,28 +24,28 @@
   div.card-body:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
-  .searchText{
+  /* .searchText{
     font-size: 15px;
     line-height: initial;
     font-weight: 900;
-  }
+  } */
   .custom-select{
-    width:100%;
+    width:200px;
   }
   
   .btn2{
     margin-left:10%;
   }
-  input {
+  /* input {
     outline: 0!important;
     border-width: 0 0 2px!important;
     border-color: #d1d1cf!important;
-  }
-  input:focus {
+  } */
+  /* input:focus {
     border-color: #d1d1cf!important;
    -webkit-box-shadow: none!important;
     box-shadow: none!important;
-  }
+  } */
   
   select{
   
@@ -68,7 +69,7 @@
   
   }
   
-  .fa{
+ #just-this{
     border-radius: 25px;
     width: 10%;
     margin-left: 5%;
