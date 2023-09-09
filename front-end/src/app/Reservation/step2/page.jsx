@@ -333,9 +333,9 @@ console.log("this is users",response);
               </a>
             </li>
             <li className="col-md-4">
-              <a href="reservation-3.html">
+           
                 <span data-text="Checkout"></span>
-              </a>
+             
             </li>
           </ul>
         </div>

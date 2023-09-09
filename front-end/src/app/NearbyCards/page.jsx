@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import activity1Image from '../assets/images/activity-1.jpg';
 import activity2Image from '../assets/images/activity-2.jpg';

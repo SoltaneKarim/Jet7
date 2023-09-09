@@ -38,10 +38,10 @@ return (
                 <a href="reservation-1.html"><span data-text="Room &amp; rates"></span></a>
               </li>
               <li className="col-md-4">
-                <a href="reservation-2.html"><span data-text="Reservation"></span></a>
+               <span data-text="Reservation"></span>
               </li>
               <li className="col-md-4">
-                <a href="reservation-3.html"><span data-text="Checkout"></span></a>
+                <span data-text="Checkout"></span>
               </li>
             </ul>
           </div>

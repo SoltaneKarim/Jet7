@@ -2,8 +2,8 @@
 import React, { useState , useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import {	faFacebook,	faTwitter,	faYoutube,} from "@fortawesome/free-brands-svg-icons"; // Import Font Awesome icons
-import logoDesc from "../assets/images/logo.png";
+import {	faFacebook,	faGithub,	faInstagram,	faTwitter,	faYoutube,} from "@fortawesome/free-brands-svg-icons"; // Import Font Awesome icons
+import logoDesc from "../assets/images/Jet-7-logo-white.png";
 
 
 const Header = () => {
@@ -80,29 +80,29 @@ const Header = () => {
 				<nav className="navigation-top clearfix">
 					{/* navigation-top-left */}
 					<div className="navigation-top-left">
-						<a className="box" href="#">
+						<a className="box" href="https://www.facebook.com/lkormi">
 							<FontAwesomeIcon icon={faFacebook} />
 						</a>
-						<a className="box" href="#">
-							<FontAwesomeIcon icon={faTwitter} />
+						<a className="box" href="https://www.instagram.com/ihebmachraoui/">
+							<FontAwesomeIcon icon={faInstagram} />
 						</a>
-						<a className="box" href="#">
-							<FontAwesomeIcon icon={faYoutube} />
+						<a className="box" href="https://github.com/SoltaneKarim">
+							<FontAwesomeIcon icon={faGithub} />
 						</a>
 					</div>
 
 					{/* navigation-top-right */}
 					<div className="navigation-top-right">
-						<a className="box" href="#">
+						<a className="box" href="/LatestNews">
 							<i className="icon icon-star"></i> Special offers
 						</a>
 
-						<a className="box">
+						<a className="box" href="/Reservation/step1">
 							<i className="icon icon-tag"></i> Reservations
 						</a>
 
 						<a className="box" href="#">
-							<i className="icon icon-phone-handset"></i> (01) 252-3333
+							<i className="icon icon-phone-handset"></i> (+216) 5117-2000  
 						</a>
 					</div>
 				</nav>
@@ -124,7 +124,6 @@ const Header = () => {
 
 
 
-						
 					</div>
 					{/* toggle-menu */}
 					<div className={`toggle-menu ${menuOpen ? 'open' : ''}`} onClick={handleToggleMenu}>
@@ -135,68 +134,39 @@ const Header = () => {
 						{/* navigation-left */}
 						<ul className="navigation-left">
 							<li >
-								<a href="/pageloader">
+								<a href="http://localhost:3000/">
 									Home{" "}
 									<span className="open-dropdown">
-										<i className="fa fa-angle-down"></i>
 									</span>
 								</a>
-
-								<ul>
-									<li>
-										<a>Home - Booking intro</a>
-									</li>
-									<li>
-										<a>Home - Booking box</a>
-									</li>
-									<li>
-										<a>Home - Rooms intro</a>
-									</li>
-								</ul>
 							</li>
 							<li>
-								<a >
-									Pages{" "}
-									<span className="open-dropdown">
-										<i className="fa fa-angle-down"></i>
-									</span>
-								</a>
-								<ul>
-									<li>
-										<a>About us</a>
-									</li>
-									<li>
-										<a>Rooms category</a>
-									</li>
-									<li>
-										<a>Room overview</a>
-									</li>
-									<li>
-										<a>404 Not found</a>
-									</li>
-									<li>
-										<a>Shortcodes</a>
-									</li>
-								</ul>
+							<a >
+                                    Pages{" "}
+                                    <span className="open-dropdown">
+                                        <i className="fa fa-angle-down"></i>
+                                    </span>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="/ImageBlocks">Rooms category</a>
+                                    </li>
+                                    <li>
+                                        <a>404 Not found</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://dealspotr.com/promo-codes/us.nothing.tech">Shortcodes</a>
+                                    </li>
+                                </ul>
+								
 							</li>
 							<li>
-								<a >
+								<a href="/Reservation/step1">
 									Booking{" "}
 									<span className="open-dropdown">
-										<i className="fa fa-angle-down"></i>
 									</span>
 								</a>
-								<ul>
-									<li>
-										<a>Booking step 1</a>
-									</li>
-									<li>
-										<a>Booking step 2</a>
-									</li>
-									<li>
-										<a>Booking step 3</a>
-									</li>
-								</ul>
+								
 							</li>
 						</ul>
 
@@ -206,20 +176,12 @@ const Header = () => {
 								<a>Facilities</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/Subsribe">
 									Blog{" "}
 									<span className="open-dropdown">
-										<i className="fa fa-angle-down"></i>
 									</span>
 								</a>
-								<ul>
-									<li>
-										<a>Blog category</a>
-									</li>
-									<li>
-										<a>Blog item</a>
-									</li>
-								</ul>
+								
 							</li>
 							<li>
 								<a>Contact</a>

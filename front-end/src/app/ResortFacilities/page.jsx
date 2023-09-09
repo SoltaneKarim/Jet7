@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import compagnie from '../../../../compagnie.json';
 
@@ -11,12 +12,12 @@ const ResortFacilities = () => {
       <div className="section-header">
         <div className="container">
           <h2 className="title">
-            Resort facilities{' '}
+            Airlines{' '}
             <a href="facility.html" className="btn btn-sm btn-clean-dark">
               Explore more
             </a>
           </h2>
-          <p>With the best luxury spa, salon, and fitness experiences</p>
+          <p>Where the journey becomes an experience.</p>
         </div>
       </div>
       {/* Stretcher */}

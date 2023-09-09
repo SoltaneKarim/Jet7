@@ -11,14 +11,20 @@
   font-size: 2rem;
 
 }
-.item{
-height: 850px;
-width: 100%;
-background-size: auto;
-background-position-y:-250px ;
-background-position-x:-150px ;
-background-repeat: no-repeat;
+.item {
+  height: 850px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; /* Make the background cover the entire container */
+  background-position: center; /* Center the background image horizontally and vertically */
+
+  /* Adjust background properties for smaller screens */
+  @media (max-width: 768px) {
+    height: 500px; /* Adjust the height as needed for smaller screens */
+    width: 400px;;
+  }
 }
+
 .booking-wrapper{
   background-color: #ffffff4f !important;
 }
@@ -26,11 +32,19 @@ background-repeat: no-repeat;
   height: 400px !important;
     width: 700px !important;
 }
-.just-this-img{
-  height: 479px;
-  width: 726px;
-  background-size: contain;
+.just-this-img {
+  max-width: 100%; /* Make sure the element doesn't exceed its container's width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Apply specific styles for smaller screens */
+@media (max-width: 768px) {
+  .just-this-img {
+    width: 50%; /* Adjust the width as needed for smaller screens */
+    max-height: 300px; /* Adjust the maximum height as needed */
+  }
 }
 .random-pic{
   height: -webkit-fill-available;
