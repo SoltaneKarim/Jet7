@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import catRooms from "../../../../rooms.json"; // Adjust the path to your JSON file
+import catRooms from "../../../rooms.json"; // Adjust the path to your JSON file
 
 const ImageBlocks = () => {
   const [currentRoomIndex, setCurrentRoomIndex] = useState(0);
@@ -73,7 +73,7 @@ const ImageBlocks = () => {
               <div className="book">
                 <div>
                   <a
-                    href="room-overview.html"
+                    href="Resirvation/step1"
                     className="btn btn-danger btn-lg"
                   >
                     Book
@@ -141,7 +141,7 @@ const ImageBlocks = () => {
               <div className="book">
                 <div>
                   <a
-                    href="room-overview.html"
+                    href="Reservation/step1"
                     className="btn btn-danger btn-lg"
                   >
                     Book

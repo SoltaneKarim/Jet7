@@ -1,14 +1,26 @@
+"use client"
 import React from 'react'
+import Picking from "./step1/Picking";
+import Step3 from "./step3/page";
 
 function page() {
+
   return (
     <div>
-      homeeeee
+   <HotelProvider>
+   <Picking setChang={setChang}/>
+      <Step3 chang={chang} />
+    
+
+   </HotelProvider>
+    
+
     </div>
   )
 }
 
 export default page
+
 
 // .carousel-container img {
 //   height: 100vh;

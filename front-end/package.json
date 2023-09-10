@@ -19,6 +19,7 @@
     "bootstrap": "^5.3.1",
     "cloudinary-react": "^1.8.1",
     "core-js": "^3.32.2",
+   
     "install": "^0.13.0",
     "jquery": "^3.7.1",
     "next": "13.4.19",
