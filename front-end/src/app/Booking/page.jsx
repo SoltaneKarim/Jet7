@@ -162,7 +162,7 @@ const Booking = () => {
 
             {/* Button */}
             <div className="col-xs-12 col-sm-4">
-            <a href="/Registration" className="btn btn-clean">
+            <a href="/Reservation/step1" className="btn btn-clean">
         Book now
         <small>Best Prices Guaranteed</small>
       </a>

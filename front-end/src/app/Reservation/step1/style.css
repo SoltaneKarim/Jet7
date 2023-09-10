@@ -7,6 +7,7 @@
    .card {
     border: 1px solid #dedede;
     background-color: white;
+    margin-bottom: 100px;
 }
 
 .card__wrap--inner {
@@ -103,7 +104,9 @@
 }
 
   div.card-body{
-    padding:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
   }
   div.card-body:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -148,10 +151,7 @@
     margin-left: 3.5%;
   }
   
-  .icons{
-    margin:auto!important;
-  
-  }
+ 
   
  #just-this{
     border-radius: 25px;

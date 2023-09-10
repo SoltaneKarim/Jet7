@@ -1,12 +1,13 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState , useContext } from 'react';
 import '../../globals.css'
 import "./style.css";
 import Calendar from "./Calendar";
 import Forum from "./Forum";
 import Picking from "./Picking";
+
 function page() {
-const [ view , setView]=useState("picking")
+const [ view , setView]=useState("forum")
 const [ options , setOption] = useState([])
 
 
@@ -62,7 +63,7 @@ return (
 
    
 {view ==='forum' && <Forum handleOption={handleOption} />}
-{view ==='picking' && <Picking />}
+{view ==='picking' && <Picking  />}
     </>
     
     

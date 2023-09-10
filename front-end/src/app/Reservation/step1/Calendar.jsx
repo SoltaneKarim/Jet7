@@ -12,7 +12,7 @@ const Calendar = ({arr, dep}) => {
   const [selectedYear, setSelectedYear] = useState(currentDate.getFullYear());
 
   const handleDateClick = (event, day) => {
-    event.preventDefault();
+    event.preventDefault();  
     setSelectedDate({
       day: day,
       month: selectedMonth,

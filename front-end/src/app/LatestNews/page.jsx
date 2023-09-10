@@ -49,7 +49,7 @@ const LatestNews = () => {
         <div className="row">
           {fakeData.map((item, index) => (
             <div className="col-sm-4" key={index}>
-              <a href="blog-item.html">
+              <a href="Reservation/step1">
                 <article>
                   <div className="card">
                     <div className="image">

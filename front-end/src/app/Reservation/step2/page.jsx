@@ -127,6 +127,7 @@ console.log("this is users",response);
       !confirmPassword === password
     ) {
       alert('Please fill in all required fields.');
+
       return;
     }
 
@@ -146,12 +147,19 @@ console.log("this is users",response);
       sexe,
       image: selectedImage,
     };
+    localStorage.setItem('username',userData.fullName)
+    localStorage.setItem('email',userData.email)
+    localStorage.setItem('image',userData.image)
+    localStorage.setItem('phonenumber',userData.phoneNumber)
+    
+
 
     try {
       // Send a POST request to the server for user registration
       const response = await axios.post('http://localhost:5000/user', userData);
 
       // Handle the response from the server as needed
+    
       if (response.status === 200) {
         // Registration successful
         alert('Registration successful!');
@@ -166,7 +174,7 @@ console.log("this is users",response);
         // You can perform additional actions here, like redirecting the user to the login page.
       } else {
         // Registration failed
-        alert('Registration failed. Please try again later.');
+        // alert('Registration failed. Please try again later.');
       }
     } catch (error) {
       console.error('Error during registration: ', error);
@@ -297,7 +305,7 @@ console.log("this is users",response);
         <hr />
       </div>
       <div className="col-md-12">
-        <a href="#" className="btn btn-main btn-block" onClick={handleCreateAccount}>
+        <a href="step3" className="btn btn-main btn-block" onClick={handleCreateAccount}>
           Create account
         </a>
       </div>
