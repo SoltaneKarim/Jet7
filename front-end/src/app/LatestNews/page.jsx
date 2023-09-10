@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import reports from '../../../../blogs.json';
+import reports from '../../../blogs.json';
 
 const LatestNews = () => {
   const [fakeDataIndex, setFakeDataIndex] = useState(0);

@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import compagnie from '../../../../compagnie.json';
+import compagnie from '../../../compagnie.json';
 
 const ResortFacilities = () => {
   
